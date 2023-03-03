@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: black;
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    font-style: italic;
+    box-shadow: 3px 3px;
+}
+
+.list {
+    border:  2px dashed whitesmoke;
+    width: 40%;
+    margin: 40px;
+    padding: 20px;
+}
+
+button {
+    background-color: turquoise;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 200px;
+    height: 40px;
+    border-radius: 20%;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    height: 40px;
+    font-size: 30px;
+    color: black;
+}
+
+ul {
+    list-style:circle;
+}
+
+li {
+    color: aliceblue;
+    font-size: 25px;
+    font-style: italic;
+}
+
+li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+h2 {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
